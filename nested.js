@@ -8,6 +8,9 @@
 //         <h3>hello 3</h3>
 //     </div>
 // </div> 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement("div", { id: "parent" },
  [React.createElement("div", { id: "child" },
   [React.createElement("h1", {}, "hello h1"), React.createElement("h2", {}, "hello h2")]),
